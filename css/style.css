@@ -97,7 +97,7 @@ body {
 }
 .installation{
     text-align: center;
-    margin-bottom: 120px;
+    
 }
 .installation hr{
    margin-left: 30%;
@@ -117,6 +117,12 @@ body {
 .fourth-div img{
     width: 100%;
     margin-left: 5%;
+}
+.fourth-div p{
+    margin-bottom: 100px;
+}
+.food-app{
+    height: 90%;
 }
 footer{
     background-color: rgb(11, 13, 23);
