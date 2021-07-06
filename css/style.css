@@ -4,18 +4,15 @@ body {
 }
 
 .advertise {
+    margin-top: 5%;
     display: flex;
     margin-bottom: 120px;
 }
 
-/* section {
-    margin-bottom: 120px;
-    background-image: url(images/shapes/7.png);
-} */
 #second{
-    background-image: url(images/shapes/7.png);
+    background-image: url(/images/shapes/7.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-size: cover;
 }
 .chef {
     width: 80%;
@@ -58,6 +55,7 @@ body {
     width: 50%;
     padding-left: 5%;
     margin-top: 10px;
+    margin-right: 7%;
 }
 .sec-last p{
     margin-bottom: 80px;
@@ -80,6 +78,10 @@ body {
     margin-right: 20%;
     text-align: center;
 }
+.recipie-item{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .review{
     display: flex;
     border: 1px solid white;
@@ -93,6 +95,29 @@ body {
     text-align: center;
     width: 33.33%;
 }
+.installation{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.installation hr{
+   margin-left: 30%;
+   margin-right: 30%;
+   margin-bottom: 30px;
+   border: 1px solid purple;
+}
+.Fourth-sec{
+    display: flex;
+    width: 90%;
+    padding: 5%;
+}
+.fourth-div{
+    width: 100%;
+    
+}
+.fourth-div img{
+    width: 100%;
+    margin-left: 5%;
+}
 footer{
     background-color: rgb(11, 13, 23);
     text-align: center;
@@ -102,4 +127,7 @@ footer{
 }
 #network{
     color: rgb(91, 91, 91);
+}
+.appstore{
+    color:rgb(255, 0, 82)
 }
